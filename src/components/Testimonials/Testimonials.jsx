@@ -75,7 +75,7 @@ const Testimonials = () => {
                             <img src={user_4} alt="" />
                             <div>
                                 <h3>Satyaswarup Jena</h3>
-                                <span>Balasowar,Indian</span>
+                                <span>Baleswar,Indian</span>
                             </div>
                          </div>
                          <p>Team Leader of our group</p>
