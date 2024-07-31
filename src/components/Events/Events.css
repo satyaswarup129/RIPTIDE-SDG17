@@ -8,10 +8,12 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
+    gap: 30px;
 }
 .gallary img{
-    width: 23%;
+    width: 100%;
     border-radius: 10px;
+
 }
 
 
