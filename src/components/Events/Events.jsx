@@ -42,10 +42,10 @@ const Events = () => {
         </BrowserRouter>
       </div>
       <BrowserRouter>
-        <Link to ="https://sdgs.un.org/events">
-      <button className="btn dark-btn">
-        see more here <img src={white_arrow} alt="" />
-      </button>
+        <Link to="https://sdgs.un.org/events">
+          <button className="btn dark-btn">
+            see more here <img src={white_arrow} alt="" />
+          </button>
         </Link>
       </BrowserRouter>
     </div>

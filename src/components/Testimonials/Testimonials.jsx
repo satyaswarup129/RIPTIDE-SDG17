@@ -6,6 +6,9 @@ import user_1 from '../../assets/user-1.png'
 import user_2 from '../../assets/user-1.png'
 import user_3 from '../../assets/user-1.png'
 import user_4 from '../../assets/user-1.png'
+import user_5 from '../../assets/user-1.png'
+import user_6 from '../../assets/user-1.png'
+import user_7 from '../../assets/user-1.png'
 
 
 
@@ -62,11 +65,11 @@ const Testimonials = () => {
                         <div className="user-info">
                             <img src={user_3} alt="" />
                             <div>
-                                <h3>Mighty Nano</h3>
+                                <h3>Vinayak Kumar</h3>
                                 <span>Cuttack,Indian</span>
                             </div>
                          </div>
-                         <p>Assistant coder of our group</p>
+                         <p>Assistant coder,designer of our group</p>
                     </div>
                 </li>
                 <li>
@@ -79,6 +82,42 @@ const Testimonials = () => {
                             </div>
                          </div>
                          <p>Team Leader of our group</p>
+                    </div>
+                </li>
+                <li>
+                    <div className="slide">
+                        <div className="user-info">
+                            <img src={user_5} alt="" />
+                            <div>
+                                <h3>Chiranjeet Bhukta</h3>
+                                <span>Rourkela,Indian</span>
+                            </div>
+                         </div>
+                         <p>Assistant coder of our group</p>
+                    </div>
+                </li>
+                <li>
+                    <div className="slide">
+                        <div className="user-info">
+                            <img src={user_4} alt="" />
+                            <div>
+                                <h3>Arpan Giri</h3>
+                                <span>Baleswar,Indian</span>
+                            </div>
+                         </div>
+                         <p>Assistant coder of our group</p>
+                    </div>
+                </li>
+                <li>
+                    <div className="slide">
+                        <div className="user-info">
+                            <img src={user_7} alt="" />
+                            <div>
+                              <h3>Sagar Das</h3> 
+                                <span>Kendrapada,Indian</span>
+                            </div>
+                         </div>
+                         <p>Assistant designer of our group</p>
                     </div>
                 </li>
             </ul>
