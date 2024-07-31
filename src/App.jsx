@@ -10,8 +10,6 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Videoplayer from './components/VideoPlayer/Videoplayer'
 
-
-
 const App = () => {
   const [playState, setPlayState] = useState(false);
   return (
@@ -28,10 +26,7 @@ const App = () => {
   <Testimonials/>
   <Title subTitle ='Contact Us' title='Get in Touch'/>
   <Contact/>
-  <Footer/>
   </div>
-
-    
     </div>
   )
 }
