@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
 import './Explore.css';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 const Explore = () => {
   const [activeTab, setActiveTab] = useState('overview');
-
+ 
   return (
+    
     <div className="explore-container">
+       <Navbar />
       <div className="tabs">
         <button 
           className={activeTab === 'overview' ? 'tab active' : 'tab'}
@@ -119,6 +123,7 @@ const Explore = () => {
           </div>
         )}
       </div>
+      <Footer />
     </div>
   );
 }
