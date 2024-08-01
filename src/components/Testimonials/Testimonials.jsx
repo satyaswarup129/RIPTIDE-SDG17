@@ -42,7 +42,7 @@ const Testimonials = () => {
                             <img src={user_1} alt="" />
                             <div>
                                 <h3>Binay Ranjan sahu</h3>
-                                <span>Rourkela,Indian</span>
+                                <span>Rourkela,India</span>
                             </div>
                          </div>
                          <p>Lead designer of our group</p>
@@ -54,7 +54,7 @@ const Testimonials = () => {
                             <img src={user_2} alt="" />
                             <div>
                                 <h3>Pralaya Tripathy</h3>
-                                <span>Khurda,Indian</span>
+                                <span>Khurda,India</span>
                             </div>
                          </div>
                          <p>Lead coder of our group</p>
@@ -78,7 +78,7 @@ const Testimonials = () => {
                             <img src={user_4} alt="" />
                             <div>
                                 <h3>Satyaswarup Jena</h3>
-                                <span>Baleswar,Indian</span>
+                                <span>Baleswar,India</span>
                             </div>
                          </div>
                          <p>Team Leader of our group</p>
@@ -90,7 +90,7 @@ const Testimonials = () => {
                             <img src={user_5} alt="" />
                             <div>
                                 <h3>Chiranjeet Bhukta</h3>
-                                <span>Rourkela,Indian</span>
+                                <span>Rourkela,India</span>
                             </div>
                          </div>
                          <p>Assistant coder of our group</p>
@@ -102,7 +102,7 @@ const Testimonials = () => {
                             <img src={user_4} alt="" />
                             <div>
                                 <h3>Arpan Giri</h3>
-                                <span>Baleswar,Indian</span>
+                                <span>Baleswar,India</span>
                             </div>
                          </div>
                          <p>Assistant coder of our group</p>
@@ -114,7 +114,7 @@ const Testimonials = () => {
                             <img src={user_7} alt="" />
                             <div>
                               <h3>Sagar Das</h3> 
-                                <span>Kendrapada,Indian</span>
+                                <span>Kendrapada,India</span>
                             </div>
                          </div>
                          <p>Assistant designer of our group</p>
