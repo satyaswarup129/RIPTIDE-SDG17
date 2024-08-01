@@ -71,21 +71,21 @@ const Explore = () => {
         {activeTab === 'facts' && (
           <div className="section">
             <ul>
-              <li><a href="https://www.fao.org/fishery/en">Oceans cover three quarters</a> of the Earth’s surface, contain 97 percent of the Earth’s water, and represent 99 percent of the living space on the planet by volume.</li>
+              <li><a href="https://www.unesco.org/en/sustainable-development/education">Oceans cover three quarters</a> of the Earth’s surface, contain 97 percent of the Earth’s water, and represent 99 percent of the living space on the planet by volume.</li>
               <h3>Climate Change</h3>
-              <li><a href="https://www.fao.org/fishery/en">Oceans absorb about 30 percent</a> of carbon dioxide produced by humans, buffering the impacts of global warming.</li>
-              <li>Carbon emissions from human activities are <a href="https://www.fao.org/fishery/en">causing ocean warming, acidification and oxygen losss</a>.</li>
-              <li>The ocean has also absorbed <a href="https://www.fao.org/fishery/en">more than 90 percent</a> of the excess heat in the climate system.</li>
-              <li>Ocean heat is at record levels, causing <a href="https://www.fao.org/fishery/en">widespread marine heatwaves.</a></li>
+              <li><a href="https://wmo.int/pages/prog/wcp/agm/publications/documents/Climate_Carbon_CoralReefs.pdf">Oceans absorb about 30 percent</a> of carbon dioxide produced by humans, buffering the impacts of global warming.</li>
+              <li>Carbon emissions from human activities are <a href="https://www.ipcc.ch/2019/09/25/srocc-press-release/">causing ocean warming, acidification and oxygen losss</a>.</li>
+              <li>The ocean has also absorbed <a href="https://www.ipcc.ch/2019/09/25/srocc-press-release/">more than 90 percent</a> of the excess heat in the climate system.</li>
+              <li>Ocean heat is at record levels, causing <a href="https://public.wmo.int/en/media/press-release/2019-concludes-decade-of-exceptional-global-heat-and-high-impact-weather">widespread marine heatwaves.</a></li>
               <h3>Ocean and people</h3>
-              <li><a href="https://www.fao.org/fishery/en">Over three billion</a> people depend on marine and coastal biodiversity for their livelihoods.</li>
-              <li>Globally, <a href="https://www.fao.org/fishery/en">the market value of marine and coastal resources</a> and industries is estimated at $3 trillion per year or about 5 percent of global GDP.</li>
-              <li><a href="https://www.fao.org/fishery/en">Marine fisheries</a> directly or indirectly employ over 200 million people.</li>
-              <li>Coastal waters are deteriorating due to pollution and eutrophication. Without concerted efforts, <a href="https://www.fao.org/fishery/en">coastal eutrophication is expected to increase</a> in 20 percent of large marine ecosystems by 2050.</li>
-              <li>Roughly <a href="https://www.fao.org/fishery/en">80 percent</a> of marine and coastal pollution originates on land – including agricultural run-off, pesticides, plastics and untreated sewage.</li>
-              <li>Around the world, <a href="https://www.fao.org/fishery/en">one million plastic drinking bottles are purchased every minute</a>, while up to 5 trillion single-use plastic bags are used worldwide every year.</li>
-              <li>Around <a href="https://www.fao.org/fishery/en">680 million people live in low-lying coastal zones</a> – that is expected to increase to a billion by 2050.</li>
-              <li>Sustainable and climate-resilient transport, including maritime transport, is key to sustainable development. <a href="https://www.fao.org/fishery/en">Around 80 percent</a> of the volume of international trade in goods is carried by sea, and the percentage is even higher for most developing countries.</li>
+              <li><a href="https://unctad.org/topic/trade-and-environment/oceans-economy">Over three billion</a> people depend on marine and coastal biodiversity for their livelihoods.</li>
+              <li>Globally, <a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://documents1.worldbank.org/curated/en/965641473449861013/pdf/AUS16344-REVISED-v1-BlueEconomy-FullReport-Oct3.pdf">the market value of marine and coastal resources</a> and industries is estimated at $3 trillion per year or about 5 percent of global GDP.</li>
+              <li><a href="https://www.fao.org/fishery/en/capture">Marine fisheries</a> directly or indirectly employ over 200 million people.</li>
+              <li>Coastal waters are deteriorating due to pollution and eutrophication. Without concerted efforts, <a href="https://www.un.org/en/observances/oceans-day/background">coastal eutrophication is expected to increase</a> in 20 percent of large marine ecosystems by 2050.</li>
+              <li>Roughly <a href="https://unctad.org/topic/transport-and-trade-logistics/review-of-maritime-transport#:~:text=The%20Review%20of%20Maritime%20Transport,higher%20for%20most%20developing%20countries.">80 percent</a> of marine and coastal pollution originates on land – including agricultural run-off, pesticides, plastics and untreated sewage.</li>
+              <li>Around the world, <a href="https://www.unep.org/interactives/beat-plastic-pollution/">one million plastic drinking bottles are purchased every minute</a>, while up to 5 trillion single-use plastic bags are used worldwide every year.</li>
+              <li>Around <a href="https://www.ipcc.ch/2019/09/25/srocc-press-release/">680 million people live in low-lying coastal zones</a> – that is expected to increase to a billion by 2050.</li>
+              <li>Sustainable and climate-resilient transport, including maritime transport, is key to sustainable development. <a href="https://unctad.org/topic/transport-and-trade-logistics/review-of-maritime-transport#:~:text=The%20Review%20of%20Maritime%20Transport,higher%20for%20most%20developing%20countries.">Around 80 percent</a> of the volume of international trade in goods is carried by sea, and the percentage is even higher for most developing countries.</li>
             </ul>
           </div>
         )}
