@@ -12,8 +12,6 @@ import Videoplayer from './components/VideoPlayer/Videoplayer'
 import { Route, Routes } from 'react-router-dom'
 import Login from './components/Login/Login'
 
-
-
 const App = () => {
   const [playState, setPlayState] = useState(false);
   const [showLogin,setShowLogin] = useState(false)
