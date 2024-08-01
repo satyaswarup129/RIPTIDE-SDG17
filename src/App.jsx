@@ -8,8 +8,6 @@ import Events from './components/Events/Events'
 import Testimonials from './components/Testimonials/Testimonials'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import Videoplayer from './components/VideoPlayer/Videoplayer'
-import { Route, Routes } from 'react-router-dom'
 import Login from './components/Login/Login'
 
 const App = () => {
@@ -21,7 +19,7 @@ const App = () => {
 <Navbar setShowLogin={setShowLogin} />
 <Hero/>
 <div className="container">
-  <Title subTitle ='Goals' title='Articals related to LIFE BELOW WATER'/>
+  <Title subTitle ='Goals' title='Articles related to LIFE BELOW WATER'/>
   <Programs/>
   <About setPlayState={setPlayState}/>
   <Title subTitle ='Events' title='Ocean visuals'/>
