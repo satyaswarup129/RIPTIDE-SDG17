@@ -9,14 +9,18 @@ import Testimonials from './components/Testimonials/Testimonials'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Videoplayer from './components/VideoPlayer/Videoplayer'
+import { Route, Routes } from 'react-router-dom'
+import Login from './components/Login/Login'
 
 
 
 const App = () => {
   const [playState, setPlayState] = useState(false);
+  const [showLogin,setShowLogin] = useState(false)
   return (
     <div>
-<Navbar/>
+      {showLogin?<Login setShowLogin={setShowLogin}/>:<></>}
+<Navbar setShowLogin={setShowLogin} />
 <Hero/>
 <div className="container">
   <Title subTitle ='Goals' title='Articals related to LIFE BELOW WATER'/>
@@ -30,7 +34,6 @@ const App = () => {
   <Contact/>
   <Footer/>
   </div>
-
     
     </div>
   )
