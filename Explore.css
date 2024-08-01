@@ -1,0 +1,173 @@
+.explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px; 
+  box-sizing: border-box; 
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 60px 38px 0 38px;
+  width: 95%;
+  padding: 20px 20px 0 20px; 
+  max-width: 1550px; 
+  box-sizing: border-box; 
+}
+
+.tabs button {
+  flex: 1;
+  padding: 15px 20px;
+  margin: 0;
+  border: 1px solid #00bcd4;
+  border-left: none;
+  background-color: #e0f7fa;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  box-sizing: border-box; 
+  border-radius: 8px 8px 0 0; 
+}
+
+.tabs button:first-child {
+  border-left: 1px solid #00bcd4;
+}
+
+.tabs button.active {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.tabs button:not(.active):hover {
+  background-color: #b2ebf2;
+}
+
+.content {
+  width: 92.35%;
+  max-width: 1550px; 
+  text-align: left;
+  border: 1px solid #00bcd4;
+  background-color: #ffffff;
+  border-top: none;
+  box-sizing: border-box; 
+  padding: 20px;
+  margin: auto; 
+  margin-bottom: 60px;
+  border-radius: 0 0 8px 8px; 
+}
+
+.content h2 {
+  color: #00796b;
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+.content h3 {
+  color: #00796b;
+  margin: 10px 0;
+  padding-left: 22px;
+}
+
+.content p,
+.content ul {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 10px 20px;
+}
+
+.content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content ul li {
+  margin: 5px 0;
+  padding-left: 20px;
+  text-indent: -20px;
+}
+
+.content ul li::before {
+  content: "•";
+  color: #00bcd4;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-right: 10px;
+}
+
+.content a {
+  color: #00796b;
+}
+
+.content a:hover {
+  color: #00bcd4;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+  .tabs {
+    max-width: 100%;
+    flex-wrap: wrap; /* Wrap tabs on smaller screens */
+  }
+
+  .tabs button {
+    flex: 1 1 50%; /* Adjust buttons to take half width on smaller screens */
+  }
+
+  .content {
+    max-width: 100%;
+    padding: 20px 10px; /* Adjust padding on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .tabs {
+    margin: 30px 10px 0 10px;
+    padding: 10px 10px 0 10px; /* Reduce padding on smaller screens */
+    flex-direction: column; /* Stack tabs vertically */
+  }
+
+  .tabs button {
+    flex: 1 1 100%; /* Adjust buttons to take full width on smaller screens */
+    font-size: 14px; /* Reduce font size on smaller screens */
+    margin-bottom: 5px; /* Add margin between buttons */
+  }
+
+  .content {
+    width: 100%;
+    padding: 15px; /* Adjust padding on smaller screens */
+    margin: 20px auto; /* Adjust margin on smaller screens */
+  }
+
+  .content p,
+  .content ul {
+    font-size: 14px; /* Adjust font size on smaller screens */
+    margin: 10px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tabs {
+    margin: 20px 5px 0 5px;
+    padding: 5px 5px 0 5px; /* Reduce padding on very small screens */
+  }
+
+  .tabs button {
+    font-size: 12px; /* Reduce font size on very small screens */
+    padding: 10px; /* Reduce padding on very small screens */
+  }
+
+  .content {
+    padding: 10px; /* Adjust padding on very small screens */
+    margin: 10px auto; /* Adjust margin on very small screens */
+  }
+
+  .content p,
+  .content ul {
+    font-size: 12px; /* Adjust font size on very small screens */
+    margin: 5px 5px;
+  }
+}
