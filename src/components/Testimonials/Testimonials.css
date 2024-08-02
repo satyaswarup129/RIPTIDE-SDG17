@@ -90,3 +90,23 @@
         font-size: 12px;
     }
 }
+@media (max-width: 480px){
+    .user-info{
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .user-info h3{
+        font-size: 16px;
+    }
+    .slider p{
+        font-size: 12px;
+    }
+    .slide{
+        display: inline-block;
+       margin-right:  0px;
+       margin-left:  0px;
+        padding: 0px;
+        /* gap: 1px; */
+    }
+}
