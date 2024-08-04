@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Explore.css';
-import Navbar from '../Navbar/Navbar';
+// import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 
 const Explore = () => {
@@ -9,31 +9,31 @@ const Explore = () => {
   return (
     
     <div className="explore-container">
-       <Navbar />
+       {/* <Navbar /> */}
       <div className="tabs">
         <button 
           className={activeTab === 'overview' ? 'tab active' : 'tab'}
           onClick={() => setActiveTab('overview')}
         >
-          <img src='/src/assets/fish.png' height={19} width={19}></img>  Overview
+          Overview
         </button>
         <button 
           className={activeTab === 'facts' ? 'tab active' : 'tab'}
           onClick={() => setActiveTab('facts')}
         >
-          <img src='/src/assets/Analytics.png' height={17} width={17}></img>  Facts and figures
+          Facts and figures
         </button>
         <button 
           className={activeTab === 'goal14' ? 'tab active' : 'tab'}
           onClick={() => setActiveTab('goal14')}
         >
-          <img src='/src/assets/target.png' height={16} width={16}></img>  Goal 14 targets
+            Goal 14 targets
         </button>
         <button 
           className={activeTab === 'links' ? 'tab active' : 'tab'}
           onClick={() => setActiveTab('links')}
         >
-          <img src='/src/assets/link.png' height={16} width={16}></img>  Links
+          Links
         </button>
       </div>
       <div className="content">

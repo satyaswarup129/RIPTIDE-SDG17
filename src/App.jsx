@@ -1,38 +1,17 @@
-import React, { useState } from 'react'
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Hero/Hero'
-import Programs from './components/Programs/Programs'
-import Title from './components/Title/Title'
-import About from './components/About/About'
-import Events from './components/Events/Events'
-import Testimonials from './components/Testimonials/Testimonials'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
-import Login from './components/Login/Login'
+import React from "react";
+import { BrowserRouter , Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Explore from "./components/Explore/Explore";
 
 const App = () => {
-  const [playState, setPlayState] = useState(false);
-  const [showLogin,setShowLogin] = useState(false)
   return (
-    <div>
-      {showLogin?<Login setShowLogin={setShowLogin}/>:<></>}
-<Navbar setShowLogin={setShowLogin} />
-<Hero/>
-<div className="container">
-  <Title subTitle ='Goals' title='Articles related to LIFE BELOW WATER'/>
-  <Programs/>
-  <About setPlayState={setPlayState}/>
-  <Title subTitle ='Events' title='Ocean visuals'/>
-  <Events/>
-  <Title subTitle ='Testimonial' title='Cohorts'/>
-  <Testimonials/>
-  <Title subTitle ='Contact Us' title='Get in Touch'/>
-  <Contact/>
-  <Footer/>
-  </div>
-    
-    </div>
-  )
-}
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/explore" element={<Explore />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;

@@ -12,21 +12,21 @@ const Programs = () => {
   return (
     <div className='programs' >
 <div className="program"> <img src ={program_1} alt="" />
-<BrowserRouter><Link></Link></BrowserRouter>
+ <Link></Link> 
 <div className="caption">
-<BrowserRouter><Link to ="https://sdgs.un.org/news"><img src={program_icon_1} alt=""/></Link></BrowserRouter>
+ <Link to ="https://sdgs.un.org/news"><img src={program_icon_1} alt=""/></Link> 
     <p><b>N E W S</b></p>
 </div>
 </div>
 <div className="program"> <img src ={program_2} alt="" />
 <div className="caption">
-<BrowserRouter><Link to= "https://sdgs.un.org/publications"><img src={program_icon_2} alt=""/></Link></BrowserRouter>
+ <Link to= "https://sdgs.un.org/publications"><img src={program_icon_2} alt=""/></Link> 
     <p><b>B L O G</b></p>
 </div>
 </div>
 <div className="program"> <img src ={program_3} alt="" />
 <div className="caption">
-   <BrowserRouter><Link to="https://66ab6870bfb004cf826ed82e--ubiquitous-sundae-b8baaa.netlify.app"><img src={program_icon_3} alt=""/></Link></BrowserRouter>
+    <Link to="https://66ab6870bfb004cf826ed82e--ubiquitous-sundae-b8baaa.netlify.app"><img src={program_icon_3} alt=""/></Link> 
     <p><b>I M A G E S</b></p>
 </div>
 </div>
